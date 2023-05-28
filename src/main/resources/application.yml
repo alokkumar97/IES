@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    password: ap123
+    url: jdbc:mysql://localhost:3306/ies_db?createDatabaseIfNotExist=true
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: nfmqprqyynqsjwqm
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: alokkumarmallick551@gmail.com
