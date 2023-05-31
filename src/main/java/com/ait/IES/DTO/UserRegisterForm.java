@@ -5,13 +5,13 @@ import java.time.LocalDate;
 import lombok.Data;
 
 @Data
-public class CaseWorkerRegisterForm {
+public class UserRegisterForm {
 
-	private String caseWorkerName;
-	private String caseWorkerEmail;
+	private String userFullName;
+	private String userEmail;
 	private String gender;
 	private Long contactNo;
 	private LocalDate dob;
-	private Long ssn;
+	private Long userSSN;
 	
 }

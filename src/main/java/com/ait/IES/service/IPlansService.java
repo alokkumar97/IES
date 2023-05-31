@@ -8,7 +8,7 @@ import com.ait.IES.model.PlansEntity;
 public interface IPlansService {
 
 
-	public String registerPlan(PlansRegisterForm form);
+	public String registerPlan(PlansRegisterForm form, Integer userId);
 	public List<PlansEntity> getAllPlans();
 	public String deleteById(Integer pId);
 	public String updatePlans(PlansRegisterForm form);

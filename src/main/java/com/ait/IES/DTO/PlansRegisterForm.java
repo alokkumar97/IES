@@ -9,7 +9,7 @@ public class PlansRegisterForm {
 
 	
 	private String plansName;
-	private LocalDate startDate;
-	private LocalDate endDate;
+	private LocalDate planStartDate;
+	private LocalDate planEndDate;
 	private String category;
 }

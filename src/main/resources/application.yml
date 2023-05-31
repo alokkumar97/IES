@@ -5,7 +5,7 @@ spring:
     username: root
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
@@ -21,3 +21,14 @@ spring:
           starttls:
             enable: true
     username: alokkumarmallick551@gmail.com
+
+    
+    
+    
+    
+#Master Credentials    
+admin:
+  username: alokkumarmallick551@gmail.com    
+  password: Admin123
+  
+  

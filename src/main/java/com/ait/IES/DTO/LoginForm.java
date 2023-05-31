@@ -6,6 +6,6 @@ import lombok.Data;
 public class LoginForm {
 
 	private String userEmail;
-	private String pazzwd;
+	private String userPazzwd;
 	
 }
